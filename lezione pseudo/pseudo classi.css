@@ -1,0 +1,65 @@
+
+a:hover {
+    color: red;
+}
+button:active {
+    color: red;
+    background-color: beige;
+}
+input:focus{
+    border:2px solid green;
+    outline: none;
+    box-shadow: 5px;
+}
+p{
+    color: red;
+}
+input:disabled{
+    opacity: 0.5;
+}
+input:valid{
+    border-color: green;
+}
+input:invalid{
+    border-color: red;
+}
+li:first-child{
+    font-weight: bold;
+}
+li:last-child{
+    background-color: cyan;
+    border-radius: 40px;
+   
+}
+li:nth-child(odd){
+    background-color: lightblue;
+}
+li:nth-child(even){
+    background-color: lightgreen;
+}
+li:nth-child(3n){
+    color: blue;
+}
+h1::before{
+    content:"⭐";
+    color: gold;
+    
+}
+h1::after{
+content: "⭐";
+color: gold;
+}
+h1{
+    color: gold;
+}
+p::first-line{
+    font-weight: bold;
+   
+}
+p::first-letter{
+    font-size: 3em;
+  
+}
+::selection{
+    background-color: gold;
+}

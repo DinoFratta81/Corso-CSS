@@ -1,0 +1,51 @@
+
+
+  body {
+    color: bisque;
+    background-color: darkblue;
+    font-size: large;
+  }
+  p#CC{
+    color: darksalmon ;
+  }
+   p#CD{
+    color: red ; 
+  }
+
+
+  h1#codiceFiscale {
+    color: blue;
+    background-color: aquamarine;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+  }
+
+  h1:first-child {
+    color: brown !important;
+    background-color: aquamarine;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    
+  }
+   h1.prova {
+    color:inherit;
+    background-color: aquamarine;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    
+  }
+  
+.Testo {
+  color: red;
+  background-color: deeppink;
+  border-bottom: 30px;
+
+ }
+ [type="text"] {
+  color: darkorchid;
+  background-color: red;
+ }
+ 

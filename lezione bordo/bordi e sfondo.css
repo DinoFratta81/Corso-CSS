@@ -1,0 +1,21 @@
+p {
+    background-image: url('images/tuaans-eqOCcKxSt8o-unsplash.jpg');
+    height: 500px;
+    border: 10px solid red;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-left: solid red 20px;
+    border-bottom: blue solid 21px;
+    border-right: black solid 21px;
+    border-top: violet solid 21px;
+    /* border-radius: 100px; */
+    padding: 40px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(311deg,rgba(100, 155, 42, 1) 0%, rgba(87, 199, 133, 1) 19%, rgba(237, 83, 83, 1) 100%); 
+    /* (sovrascrive l'immagine per cascata) */
+    box-shadow: -88px -8px 82px 53px rgba(109,43,43,0.75);
+-webkit-box-shadow: -88px -8px 82px 53px rgba(109,43,43,0.75);
+-moz-box-shadow: -88px -8px 82px 53px rgba(109,43,43,0.75);
+}

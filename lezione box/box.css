@@ -1,0 +1,30 @@
+.box {
+
+    background-color: chartreuse;
+    outline: none;
+    color: rgb(0, 0, 255);
+    width: 200px;
+    height: 100px;
+    padding: 50px;
+    font-size: 24px;
+
+    border-top: 10px solid slategrey;
+    border-bottom: 20px dashed blue;
+    border-left: solid 30px aqua;
+    border-right: 40px dotted brown;
+    box-sizing: content-box;
+
+
+}
+
+/* Per quanto rigurd la box sizing abbiamo: border box dove le dimensioni di altezza e largezza sono quelle, non vengono superate e mantengono padding e così via. Content box non le rispetta ed eccede le misure. */
+
+.boxe{
+    height: 100px;
+    width: 200px;
+    padding: 30px;
+    background-color: white;
+    font-size: 24px;
+    border: solid 30px blue;
+    box-sizing: border-box;
+}
