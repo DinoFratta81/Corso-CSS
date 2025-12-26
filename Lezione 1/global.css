@@ -2,7 +2,7 @@
 
   body {
     color: bisque;
-    background-color: darkblue;
+    background-color: burlywood;
     font-size: large;
   }
   p#CC{
@@ -11,7 +11,9 @@
    p#CD{
     color: red ; 
   }
-
+ a:hover{
+  color: red;
+ }
 
   h1#codiceFiscale {
     color: blue;
@@ -40,7 +42,7 @@
   
 .Testo {
   color: red;
-  background-color: deeppink;
+  background-color: midnightblue;
   border-bottom: 30px;
 
  }

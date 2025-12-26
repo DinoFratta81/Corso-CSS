@@ -1,0 +1,16 @@
+p{
+    width: fit-content;
+    height: auto;
+    overflow: auto;
+    border: 10px solid red;
+    /* Min content cerca di occupare meno spazio possibile, fit si adatta, max tutto lo spazio che può per mettere il testo */
+
+}
+.p2{
+    min-width: 400px;
+    max-width: 700px;
+    color: yellow;
+    border: solid blue 20px;
+    max-height: 900px;
+    min-height: 300px;
+}

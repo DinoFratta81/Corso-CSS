@@ -1,0 +1,9 @@
+p{
+    color: red;
+    height: 200px;
+    border: 10px solid red;
+    overflow: auto;
+    
+}
+    /*  Qui finisce l'overflow  */
+    /* Per quanto rigurda le unità di misura niente codice, solo regle da ricordare. */
