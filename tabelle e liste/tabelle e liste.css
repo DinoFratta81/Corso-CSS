@@ -1,0 +1,52 @@
+table, td, tr, th{
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+
+td, th{
+    padding: 5px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+th{
+    background-color: blanchedalmond;
+    font-size: 23px;
+    text-align: left;
+}
+
+
+tr:nth-child(even){
+    background-color: cornflowerblue;
+    
+}
+tr:nth-child(odd){
+    background-color: red;
+    
+}
+tr:hover{
+    background-color: rgb(14, 216, 109);
+}
+
+p{
+    height: auto;
+    border:red solid 8px
+}
+
+#wrapper{
+    overflow-x:auto;
+    width: 400px;
+}
+/* Qui fniscono le tabelle */
+
+ul li{ 
+    list-style-type: none; 
+    /* si può usare un immagine come pallino */
+    list-style-position: outside;
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
+ol{
+    list-style-type:upper-roman;
+
+}
