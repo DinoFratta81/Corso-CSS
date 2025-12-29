@@ -1,0 +1,13 @@
+p {
+    font-family: "Google Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: italic;
+    text-align: end;
+    text-decoration: dashed underline;
+    text-transform: lowercase;
+    line-height: 1.6;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 2px 2px 9px rgba(206, 89, 55, 0);
+}
