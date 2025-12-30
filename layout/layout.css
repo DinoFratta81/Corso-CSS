@@ -1,0 +1,8 @@
+button:focus{
+    color: red;
+    background-color: orange;
+}
+
+p{
+    font-size: 15px;
+}
