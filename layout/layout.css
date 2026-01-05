@@ -1,8 +1,13 @@
 button:focus{
     color: red;
-    background-color: orange;
+    background-color: orange; flex: 1;
 }
 
-p{
-    font-size: 15px;
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    min-height: 200px;
 }

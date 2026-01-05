@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid 4</title>
+    <style>
+        .item-1{
+            background-color: aqua;
+        }
+        .item-2{
+            background-color: darkorange;
+        }
+        .item-3{
+            background-color: honeydew;
+        }
+
+        .grid-container{
+           grid-template-columns: 150px 2fr 1fr;
+            display: grid;
+            gap: 15px;
+            max-height: 1200px;
+            background-color: green;
+            border-radius: 15px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .grid-item{
+            color: blue;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            border-radius: 10px;
+            display: flex;
+            font-weight: bold;
+            text-align: center;
+            min-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <section class="grid-container">
+        <div class="item-1 grid-item">150px<br>FISSO</div>
+        <div class="item-2 grid-item">2fr<br>DOPPIO</div>
+        <div class="item-3 grid-item">1fr<br>SINGOLO</div>
+    </section><hr>
+      <a href="/layout/layout.html">Home</a><hr>
+      <a href="/layout/grid 3.html">Indietro</a><hr>
+
+    
+</body>
+</html>
