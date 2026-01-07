@@ -1,61 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid 2</title>
     <style>
-        .grid-container{
+        .grid-container {
             display: grid;
             grid-template-columns: 200px 1fr 150px;
             grid-template-rows: 80px 1fr 60px;
-            grid-template-areas: 
-            "header header header"
-            "sidebar main aside"
-            "footer footer footer";
+            grid-template-areas:
+                "header header header"
+                "sidebar main aside"
+                "footer footer footer";
             gap: 10px;
+            background-color: rgb(43, 10, 232);
         }
-        .grid-item{
+
+        .grid-item {
             display: flex;
             justify-content: center;
             align-items: center;
         }
-        .header{
+
+        .header {
             grid-area: header;
             background-color: orange;
         }
-        .sidebar{
+
+        .sidebar {
             grid-area: sidebar;
             background-color: purple;
             min-height: 50px;
         }
-        .main{
+
+        .main {
             grid-area: main;
             background: red;
-             min-height: 50px;
-       }
-       .aside{
-        grid-area: aside;
-        background-color: green;
-         min-height: 50px;
-       }
-       .footer{
-        grid-area: footer;
-        background-color:  darkgray;
-         min-height: 50px;
-       }
+            min-height: 50px;
+        }
+
+        .aside {
+            grid-area: aside;
+            background-color: green;
+            min-height: 50px;
+        }
+
+        .footer {
+            grid-area: footer;
+            background-color: darkgray;
+            min-height: 50px;
+        }
     </style>
 </head>
+
 <body>
-  <section class="grid-container">
-    <div class="grid-item header">header</div>
-    <div class="grid-item sidebar">sidebar</div>
-    <div class="grid-item main">main</div>
-    <div class="grid-item aside">aside</div>
-    <div class="grid-item footer">footer</div>
-  </section>
-  <a href="/layout/layout.html">Vai a Layout 1</a><hr>
-  <a href="/layout/grid 3.html">Vai a Grid 3</a><hr>
-   <a href="/layout/layout.html">Home</a><hr>
+    <section class="grid-container">
+        <div class="grid-item header">header</div>
+        <div class="grid-item sidebar">sidebar</div>
+        <div class="grid-item main">main</div>
+        <div class="grid-item aside">aside</div>
+        <div class="grid-item footer">footer</div>
+    </section>
+    <a href="/layout/layout.html">Vai a Layout 1</a>
+    <hr>
+    <a href="/layout/grid 3.html">Vai a Grid 3</a>
+    <hr>
+    <a href="/layout/layout.html">Home</a>
+    <hr>
 </body>
+
 </html>

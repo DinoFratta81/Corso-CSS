@@ -1,65 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prova grid</title>
     <style>
-        .grid-container{
+        .grid-container {
             display: grid;
             grid-template-columns: 200px 1fr 200px;
             grid-template-rows: 60px 1fr 60px;
-            grid-template-areas: 
-            "header header header"
-            "sidebar main aside"
-            "footer footer footer";
+            grid-template-areas:
+                "header header header"
+                "sidebar main aside"
+                "footer footer footer";
             background-color: mediumblue;
             gap: 15px;
             padding: 12px;
             max-width: 700px;
         }
-        .grid-item{
-             color: red;
-             padding: 15px;
-             gap: 15px;
-             text-align: center;
-             justify-content: center;
-             background-color: orchid;
-             border-radius: 5px;
-             display: flex;
+
+        .grid-item {
+            color: red;
+            padding: 15px;
+            gap: 15px;
+            text-align: center;
+            justify-content: center;
+            background-color: orchid;
+            border-radius: 5px;
+            display: flex;
         }
 
-        .header{
+        .header {
             grid-area: header;
             background-color: darkseagreen;
         }
-        .sidebar{
+
+        .sidebar {
             grid-area: sidebar;
             background-color: darkkhaki;
         }
-        .main{
+
+        .main {
             grid-area: main;
             background-color: antiquewhite;
         }
-        .aside{
+
+        .aside {
             grid-area: aside;
             background-color: blue;
         }
-        .footer{
+
+        .footer {
             grid-area: footer;
             background-color: rgb(27, 233, 223);
         }
     </style>
 </head>
+
 <body>
     <section class="grid-container">
-       <div class="grid-item header">header</div>
-       <div class="grid-item sidebar">sidebar</div>
-       <div class="grid-item main">main</div>
-       <div class="grid-item aside">aside</div>
-       <div class="grid-item footer">footer</div>
-       
-    </section><hr>
-    <a href="/layout/layout.html">Home</a><hr>
+        <div class="grid-item header">header</div>
+        <div class="grid-item sidebar">sidebar</div>
+        <div class="grid-item main">main</div>
+        <div class="grid-item aside">aside</div>
+        <div class="grid-item footer">footer</div>
+
+    </section>
+    <hr>
+    <a href="/layout/layout.html">Home</a>
+    <hr>
 </body>
+
 </html>

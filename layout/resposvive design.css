@@ -1,0 +1,48 @@
+/* Extra Small (xs) - Mobile */
+/* Base styles - no media query needed */
+
+/* Small (sm) - Mobile landscape */
+@media (min-width: 576px) {
+  /* Inserisci qui gli stili per schermi ≥ 576px */
+  div{
+    background-color: darkcyan;
+    width: 120px;
+  }
+}
+
+/* Medium (md) - Tablet */
+@media (min-width: 768px) {
+  /* Inserisci qui gli stili per schermi ≥ 768px */
+   div{
+    background-color: rgb(37, 10, 245);
+    width: 150px;
+  }
+}
+
+/* Large (lg) - Desktop */
+@media (min-width: 992px) {
+  /* Inserisci qui gli stili per schermi ≥ 992px */
+   div{
+    background-color: rgb(7, 255, 147);
+    width: 50%;
+  }
+}
+
+/* Extra Large (xl) - Large desktop */
+@media (min-width: 1200px) {
+  /* Inserisci qui gli stili per schermi ≥ 1200px */
+   div{
+    background-color: rgb(255, 149, 0);
+    width: 100%;
+  }
+}
+
+/* Extra Extra Large (xxl) - Larger desktop */
+@media (min-width: 1400px) {
+  /* Inserisci qui gli stili per schermi ≥ 1400px */
+   div{
+    background-color: rgb(255, 0, 195);
+    width: 100%;
+    height: 200px;
+  }
+}
