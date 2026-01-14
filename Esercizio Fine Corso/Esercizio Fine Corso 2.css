@@ -1,0 +1,402 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 10D00px;
+
+    padding: 0 1rem;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-decoration: none;
+    padding: 13px;
+    background-color: rgba(1, 247, 62, 0.441);
+    height: 100vh;
+    position: fixed;
+    justify-content: space-between;
+    width: 47px;
+    margin-left: 12px;
+    margin-left: 12px;
+    display: none
+}
+
+.nav-icon {
+    text-decoration: none;
+    background-color: rgba(0, 128, 0, 0.158);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+
+.nav-icons,
+.nav-bottom {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-icon:hover {
+    background-color: red;
+    transition: ease-in 3s all;
+}
+
+
+.mobile-menu {
+    padding: 10px 20px;
+    justify-content: space-between;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    background-color: rgba(43, 177, 43, 0.449);
+    justify-items: center;
+    align-items: center;
+    height: auto;
+    padding: 1rem;
+    gap: 1rem;
+    margin: 6px;
+    display: flex;
+    width: 100%;
+
+}
+
+.article-btn {
+    background-color: rgba(21, 21, 123, 0.473);
+    border-radius: 12px;
+    box-shadow: rgba(20, 20, 114, 0.433);
+    height: 20px;
+    padding: 15px 23px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    gap: 1rem;
+}
+ h3{
+    margin-top: 0;
+ }
+
+.article-btn:hover {
+    background-color: cyan;
+    color: rgb(237, 36, 36);
+    font-weight: 500;
+    transition: all ease-in 1s;
+}
+
+#article {
+    gap: 1rem;
+    padding: 2 rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.sigla-autore {
+    background-color: rgba(12, 119, 12, 0.454);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(18, 83, 143, 0.589);
+    gap: 2px;
+    margin-bottom: 0,1rem;
+}
+
+blockquote {
+    border: solid black 2px;
+    opacity: 0.5;
+}
+
+.menu {
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.footer-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: rgb(255, 226, 5);
+    background-color: orange;
+    font-weight: bold;
+    font-size: large;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    height: 30px;
+    width: 30px;
+}
+
+
+.footer-button:hover {
+    background-color: red;
+    color: orange;
+    transition: all ease-in 1s;
+}
+
+.altri-consigli {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px 20px;
+    gap: 1rem;
+    margin: 10px;
+}
+
+
+.previous-button,
+.next-button {
+    text-align: center;
+    border-radius: 13px;
+    background-color: darkred;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    color: gold;
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+    font-weight: bold;
+    font-style: italic;
+    height: 100px;
+    align-items: center;
+}
+
+.previous-button:hover {
+    background-color: blue;
+    transition: all ease-in-out 0.3s;
+}
+
+.next-button:hover {
+    background-color: blue;
+    transition: all ease-in-out 0.3s;
+}
+
+
+@media (max-width: 600px) {
+
+
+    #article,
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .article-btn {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .bottoni-consiglio {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+
+    .footer-button {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 1rem;
+    }
+
+    .mobile-menu {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+@media (min-width: 768px) {
+
+    .menu,
+    #article,
+    .bottoni-consiglio,
+    .altri-consigli {
+        flex-direction: row;
+     
+        align-items: center;
+        text-align: left;
+    }
+
+    .footer-button,
+    .article-btn,
+    .previous-button,
+    .next-button {
+        max-width: 300px;
+        margin: 0;
+        width: auto;
+    }
+
+  
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 1200px;
+        
+    }
+
+    #article {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      
+        text-align: left;
+    }
+
+    .sigla-autore {
+        margin-right: 1rem;
+    }
+
+    .info-autore {
+        text-align: left;
+    }
+
+    .menu,
+    .bottoni-consiglio,
+    .altri-consigli {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .footer-button,
+    .article-btn,
+    .previous-button,
+    .next-button {
+        width: auto;
+        max-width: 300px;
+        margin: 0;
+    }
+
+    .previous-button,
+    .next-button {
+        flex: 1;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .previous-button button,
+    .next-button button {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .quote,
+    blockquote {
+        max-width: 800px;
+        font-style: italic;
+        font-size: 1.1rem;
+        opacity: 0.8;
+    }
+}
+
+@media (min-width: 768px) {
+    .mobile-menu {
+        display: none;
+    }
+
+    
+
+@media (min-width: 768px) {
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100vh;
+    padding: 13px;
+    background-color: rgba(1, 247, 62, 0.441);
+    z-index: 10;
+  }
+
+  /* Sposta il contenuto principale a destra della sidebar */
+  main,
+  #article,
+  .content,.bottoni-consiglio{
+    margin-left: 60px;
+    padding: 2rem;
+  }
+
+  h3{
+    margin-top: 0;
+  }
+
+  .sigla-autore{
+    margin-bottom: 0;
+  }
+}
+
+
+}
+
+.info-autore {
+  margin-bottom: 0.2rem; /* riduce lo spazio sotto l'autore */
+}
+
+#article h2 {
+  margin-top: 0; /* elimina lo spazio sopra “Iniziamo” */
+}
+ .info-autore + h2 {
+  margin-top: 0;
+}
+ 
+#article {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.content {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+
